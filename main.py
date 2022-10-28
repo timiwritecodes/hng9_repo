@@ -10,7 +10,7 @@ app.config['SECRET_KEY'] = "bf72f545145a1f74b38e5667"
 def get_info():
     info = {
         "slackUsername": "zion",
-        "backend": "True",
+        "backend": True,
         "age": 20,
         "bio": 'I am zion, a civil engineering undergraduate at FUTA, I\'m in the backend track of hng9.',
     }
