@@ -3,7 +3,7 @@ from flask_cors import cross_origin
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "bf72f545145a1f74b38e5667"
-app.congig['JSON_SORT_KEYS'] = False
+app.config['JSON_SORT_KEYS'] = False
 
 
 @app.route('/', methods=['GET'])
